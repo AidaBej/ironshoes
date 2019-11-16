@@ -81,7 +81,7 @@ body {
 
 .btn {
   display: inline-block;
-  width: 30%;
+  width: 60%;
   padding: 0.7em 1.7em;
   margin: 0.7em 0.3em 0.3em 0;
   border-radius: 0.2em;
@@ -155,8 +155,7 @@ body {
   width: 300px;
 }
 #get_started {
-  background: rgb(184, 137, 120);
-  color: #fff;
+  color: rgb(150, 93, 72);
   width: calc(100vw - 80px);
   margin: 0 auto;
   justify-content: space-between;
@@ -196,12 +195,17 @@ body {
   min-width: 320px;
 }
 
-#logo_footer {
-  max-width: 150px;
+#footer_main {
+  background-color: rgb(150, 93, 72);
   position: relative;
   left: -20px;
 }
 
 .shoes {
   color: rgb(150, 93, 72);
+}
+
+.cart {
+  width: 30px;
+  height: 30px;
 }
